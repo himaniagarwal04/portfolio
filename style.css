@@ -21,16 +21,16 @@ p{
     letter-spacing: 1px;
 }
 .profile-pic{
-    border-radius: 50%;
-    object-fit: cover;
+    /*border-radius: 50%;*/
+    /*object-fit: cover;*/
     margin: 40px;
     height: 400px;
-    width: 400px;
+    width: auto;
 }
 .bg-img{
-    width: 100vw;
+    width: 100%;
     position: relative;
-    height: 50vh;
+    height: 10;
     object-fit: cover;
 }
 ul, ol{
@@ -45,6 +45,7 @@ hr{
 table {
     border-collapse: collapse;
     margin: 50px;
+    width:50%;
 }
 
 th, td {
@@ -120,8 +121,8 @@ input[type=submit]{
     position: absolute;
     top: -25%;
     left: -15%; 
-    height: 100%; 
-    width: 100%;
+     
+    
 }
 .intro-flex{
     margin: 80px;
@@ -160,4 +161,7 @@ input[type=submit]{
 .course-item{
     padding: 80px;
 }
-
+div.fixednavbar {
+    position: fixed;
+    
+  }

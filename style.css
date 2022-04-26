@@ -25,9 +25,9 @@ p{
 }
 .profile-pic{
     /*border-radius: 50%;*/
-    /*object-fit: cover;*/
+    object-fit: cover;
     margin: 20px;
-    height: 350px;
+    height: 342px;
     width: auto;
 }
 .bg-img{
@@ -173,7 +173,8 @@ div.fixednavbar {
     
 }
 .headlines{
-    margin-inline: 45px 10px;
+    
+    background-color: rgb(243, 215, 236); 
 
 }
 

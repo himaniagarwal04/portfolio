@@ -167,9 +167,13 @@ input[type=submit]{
 }
 div.fixednavbar {
     position: fixed;
+    width: 100%;
+    background-color: rgb(224, 129, 201); 
+     
     
 }
 .headlines{
     margin-inline: 45px 10px;
+
 }
 

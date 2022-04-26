@@ -26,8 +26,8 @@ p{
 .profile-pic{
     /*border-radius: 50%;*/
     /*object-fit: cover;*/
-    margin: 40px;
-    height: 400px;
+    margin: 20px;
+    height: 350px;
     width: auto;
 }
 .bg-img{
@@ -49,6 +49,7 @@ table {
     border-collapse: collapse;
     margin: 50px;
     width:50%;
+    border-radius: 13px; 
 }
 
 th, td {
@@ -56,10 +57,10 @@ th, td {
     padding: 15px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #f6cbf3}
 
 th {
-    background-color: rgb(62, 182, 182);
+    background-color: rgb(202, 102, 170);
     color: white;
 }
 .center {
@@ -106,7 +107,7 @@ input:focus, textarea:focus{
     margin: none;
 }
 input[type=submit]{
-    background-color: darkcyan;
+    background-color: rgb(203, 43, 150);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -143,7 +144,7 @@ input[type=submit]{
     object-fit: cover;
 }
 .bottom-container{
-    background-color: rgb(10, 182, 182); 
+    background-color: rgb(220, 86, 186); 
     padding: 40px;
 }
 .intro{
@@ -154,7 +155,7 @@ input[type=submit]{
     text-align: justify;
 }
 .contact-div{
-    background-color: rgba(238, 252, 252, 0.781); 
+    background-color: rgba(241, 174, 226, 0.781); 
     padding: 50px;
 }
 .course-list{
@@ -167,5 +168,8 @@ input[type=submit]{
 div.fixednavbar {
     position: fixed;
     
+}
+.headlines{
+    margin-inline: 45px 10px;
 }
 
